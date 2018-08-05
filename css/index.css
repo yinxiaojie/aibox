@@ -1,0 +1,63 @@
+@import url("base.css");
+.bg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f4f4f4;
+}
+.head-image{
+    width: 2.96rem;
+    height: 2.96rem;
+    /*background: yellow;*/
+    margin: 1.83rem auto 0;
+}
+.head-image img{
+    width: 2.96rem;
+    height: 2.96rem;
+}
+.join{
+    width: 100%;
+    height: 0.28rem;
+    margin-top: 0.63rem;
+    /*background: yellow;*/
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.7);
+    line-height: .28rem;
+    text-align: center;
+    /*font-family: San Francisco Disply;*/
+}
+.password-login{
+    width: 4.66rem;
+    height: 0.7rem;
+    background-image: -webkit-linear-gradient(left,#3fabff,#5fb5f8);
+    background-image: -moz-linear-gradient(left,#3fabff,#5fb5f8);
+    background-image: -o-linear-gradient(left,#3fabff,#5fb5f8);
+    background-image: -ms-linear-gradient(left,#3fabff,#5fb5f8);
+    border-radius: 0.35rem;
+    margin: 3.8rem auto 0;
+    box-shadow: 0 0.02rem 0.02rem 0.02rem rgba(0,0,0,0.3);
+    font-size: 0.22rem;
+    /*font-family: "苹方 粗体";*/
+    color: white;
+    line-height: 0.7rem;
+    text-align: center;
+}
+.face-login{
+    width: 4.66rem;
+    height: 0.7rem;
+    background-image: -webkit-linear-gradient(left,#98fa7a,#b2efa0);
+    background-image: -moz-linear-gradient(left,#98fa7a,#b2efa0);
+    background-image: -o-linear-gradient(left,#98fa7a,#b2efa0);
+    background-image: -ms-linear-gradient(left,#98fa7a,#b2efa0);
+    border-radius: 0.35rem;
+    margin: 0.55rem auto 0;
+    box-shadow: 0 0.02rem 0.02rem 0.02rem rgba(0,0,0,0.3);
+    font-size: 0.22rem;
+    /*font-family: "苹方 粗体";*/
+    color: white;
+    line-height: 0.7rem;
+    text-align: center;
+}

@@ -1,0 +1,146 @@
+@import url("base.css");
+.bg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f4f4f4;
+}
+.head-image{
+    width: 3.13rem;
+    height: 3.13rem;
+    /*background: yellow;*/
+    margin: 1.76rem auto 0;
+}
+.circle-1{
+    width: 2.67rem;
+    height: 2.67rem;
+    background: rgba(220,240,231,0.3);
+    border-radius: 50%;
+    padding: .23rem .23rem;
+}
+.circle-2{
+    width: 2.18rem;
+    height: 2.18rem;
+    background: rgba(220,240,231,0.5);
+    border-radius: 50%;
+    padding: .23rem;
+}
+.circle-3{
+    width: 2.18rem;
+    height: 2.18rem;
+    background: rgb(220,240,231);
+    /*background: red;*/
+    border-radius: 50%;
+    overflow: hidden;
+}
+.head1{
+    width: .66rem;
+    height: .66rem;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient(top,#33d14e,#33c38d);
+    /*background-image: -moz-linear-gradient(top,#33d14e,#33c38d);*/
+    /*background-image: -o-linear-gradient(top,#33d14e,#33c38d);*/
+    /*background-image: -ms-linear-gradient(top,#33d14e,#33c38d);*/
+    margin: .37rem auto 0;
+    box-shadow: 0 0.02rem 0.02rem .02rem rgba(0,0,0,0.3);
+}
+.head2{
+    width: 1.24rem;
+    height: .6rem;
+    border-radius: .3rem;
+    margin: .13rem auto;
+    background-image: -webkit-linear-gradient(top,#33d14e,#33c38d);
+    /*background-image: -moz-linear-gradient(top,#33d14e,#33c38d);*/
+    /*background-image: -o-linear-gradient(top,#33d14e,#33c38d);*/
+    /*background-image: -ms-linear-gradient(top,#33d14e,#33c38d);*/
+    box-shadow: 0 0.02rem 0.02rem .02rem rgba(0,0,0,0.3);
+}
+
+
+.cue{
+    width: 100%;
+    height: 0.28rem;
+    margin-top: 0.27rem;
+    /*background: yellow;*/
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #33d052;
+    line-height: .26rem;
+    text-align: center;
+    /*font-family: "苹方 粗体";*/
+    /*font-family: San Francisco Disply;*/
+}
+.cue-n{
+    font-size: 0.2rem;
+    margin-top: 0.25rem;
+    color: rgba(0,0,0,0.4);
+    line-height: .2rem;
+}
+.input{
+    width: 5.62rem;
+    height: .58rem;
+    /*background: red;*/
+    margin: 1.63rem auto 0;
+    border-bottom: rgba(0,0,0,0.1) 0.01rem solid;
+}
+.input-l{
+    width: .18rem;
+    height: .08rem;
+    background: #ffcb2e;
+    margin-top: .25rem;
+    float: left;
+    box-shadow: 0 .01rem .01rem .01rem #ffcb2e;
+}
+.input-center{
+    width: 4.85rem;
+    height: .58rem;
+    outline: none;
+    float: left;
+    margin-left: .24rem;
+    display: block;
+    border:none;
+    background: 0;
+}
+.input-r{
+    width: .12rem;
+    height: .58rem;
+    font-size: .12rem;
+    color: #aeaeae;
+    line-height: .58rem;
+    float: left;
+    cursor: pointer;
+}
+.password-login{
+    width: 4.66rem;
+    height: 0.7rem;
+    background-image: -webkit-linear-gradient(left,#3dabf4,#5291be);
+    /*background-image: -moz-linear-gradient(left,#3dabf4,#5291be);*/
+    /*background-image: -o-linear-gradient(left,#3dabf4,#5291be);*/
+    /*background-image: -ms-linear-gradient(left,#3dabf4,#5291be);*/
+    border-radius: 0.35rem;
+    margin: 2.66rem auto 0;
+    box-shadow: 0 0.02rem 0.02rem 0.02rem rgba(0,0,0,0.3);
+    font-size: 0.22rem;
+    /*font-family: "苹方 粗体";*/
+    color: white;
+    line-height: 0.7rem;
+    text-align: center;
+}
+.face-login{
+    width: 4.66rem;
+    height: 0.7rem;
+    background-image: -webkit-linear-gradient(top,#3de43e,#33d07b);
+    /*background-image: -moz-linear-gradient(top,#3de43e,#33d07b);*/
+    /*background-image: -o-linear-gradient(top,#3de43e,#33d07b);*/
+    /*background-image: -ms-linear-gradient(top,#3de43e,#33d07b);*/
+    border-radius: 0.35rem;
+    margin: 0.55rem auto 0;
+    box-shadow: 0 0.02rem 0.02rem 0.02rem rgba(0,0,0,0.3);
+    font-size: 0.22rem;
+    /*font-family: "苹方 粗体";*/
+    color: white;
+    line-height: 0.7rem;
+    text-align: center;
+}
