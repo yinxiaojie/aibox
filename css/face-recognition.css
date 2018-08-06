@@ -8,70 +8,71 @@
     background: #f4f4f4;
 }
 .click-area{
-    width: 6.19rem;
-    height:4.82rem
-    background: #ffcb2e;
-    margin: 1.5rem;
-    line-height: 3.5rem;
-    /*text-align: center;*/
-    position: relative;
+    width: 4.87rem;
+    height:3.50rem;
+    /*background: #ffcb2e;*/
     top: 0.5rem;
-    overflow: hidden;
+    margin-left:1.37rem;
+    margin-top: 3.81rem;
+    position: relative;
+    /*overflow: hidden;*/
 }
-.symbol{
+img{
+    width: 4.87rem;
+    height:3.50rem;
+    text-align: center;
+}
+.symbol img {
     width: 1.04rem;
     height: 0.94rem;
-    /*background: #3de43e;*/
-    position: relative;
-    top: -5.0rem;
-    line-height: 0.94rem;
-    left: 2.71rem;
+    margin-left: 1.81rem;
+    position: absolute;
+    top: 0.62rem;
 }
 .confirm{
-    width: 2.87rem;
+    width: 2.67rem;
     height: 0.39rem;
     /*background: #3de43e;*/
-    position: absolute;
-    margin-top: -4.8rem;
-    margin-left: 1.78rem;
+    margin-top: 0.01rem;
+    margin-left:1.2rem;
+    /*position: relative;*/
+    /*overflow: hidden;*/
 }
 .confirm-n{
-    font-size: 0.24rem;
+    font-size: 0.15rem;
     color: #b3b6b4;
-    text-align: center;
-    line-height: 0.39rem;
+    margin-top: -1.95rem;
 }
 .sure{
-    width: 1.53rem;
-    height: 0.67rem;
+    width: 1.23rem;
+    height: 0.57rem;
     background: #3de43e;
     position: absolute;
-    margin-top: -4.0rem;
-    margin-left: 1.4rem;
+    margin-left: 0.8rem;
     border-radius:0.5rem;
     background-image:-webkit-linear-gradient(top,#3de43d,#3de43d);
-    box-shadow:0 0.02rem 0.02rem 0.02rem rgba(0,0,0,0.2);
+    box-shadow:0 0.02rem 0.02rem 0.02rem #3de43d;
 }
 .sure-n{
     font-size: 0.25rem;
     color: #fafafa;
     line-height: 0.67rem;
-    margin-left: 0.49rem;
+    margin-left: 0.35rem;
 }
 .cancle{
-    width: 1.53rem;
-    height: 0.67rem;
+    width: 1.23rem;
+    height: 0.57rem;
     background: #b1f2c8;
     position: absolute;
     margin-top: -0.65rem;
     border-radius:0.5rem;
     margin-left: 1.9rem;
     background-image:-webkit-linear-gradient(top,#9af1b1,#b8f2cf);
-    box-shadow:0 0.02rem 0.02rem 0.02rem rgba(0,0,0,0.2);
+    box-shadow:0 0.02rem 0.02rem 0.02rem #b8f2cf;
 }
 .cancle-n{
     font-size: 0.25rem;
     color: #fafafa;
     line-height: 0.67rem;
-    margin-left: 0.49rem;
+    margin-left: 0.35rem;
 }
