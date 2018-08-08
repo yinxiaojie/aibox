@@ -5,7 +5,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: #f4f4f4;
+    /*background: #f4f4f4;*/
 }
 .click-area{
     width: 4.87rem;
@@ -15,7 +15,6 @@
     margin-left:1.37rem;
     margin-top: 3.81rem;
     position: relative;
-    /*overflow: hidden;*/
 }
 img{
     width: 4.87rem;
@@ -47,7 +46,7 @@ img{
     width: 1.23rem;
     height: 0.57rem;
     background: #3de43e;
-    position: absolute;
+    position: relative;
     margin-left: 0.8rem;
     border-radius:0.5rem;
     background-image:-webkit-linear-gradient(top,#3de43d,#3de43d);
@@ -58,13 +57,14 @@ img{
     color: #fafafa;
     line-height: 0.67rem;
     margin-left: 0.35rem;
+    position: absolute;
 }
 .cancle{
     width: 1.23rem;
     height: 0.57rem;
     background: #b1f2c8;
-    position: absolute;
-    margin-top: -0.65rem;
+    /*position: relative;*/
+    margin-top: 0.15rem;
     border-radius:0.5rem;
     margin-left: 1.9rem;
     background-image:-webkit-linear-gradient(top,#9af1b1,#b8f2cf);
@@ -75,4 +75,5 @@ img{
     color: #fafafa;
     line-height: 0.67rem;
     margin-left: 0.35rem;
+    /*position: absolute;*/
 }

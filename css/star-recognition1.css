@@ -1,0 +1,112 @@
+@import url(base.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #f4f4f4;
+    overflow: hidden;
+}
+.touxiang{
+    width: 4.87rem;
+    height: 3.5rem;
+    margin: 1.2rem auto;
+}
+.pass{
+    width: 3.87rem;
+    height: 0.26rem;
+    font-size: 0.35rem;
+    color: #33ce5c;
+    margin-left: 2.76rem;
+}
+.yanzheng{
+    width: 3.64rem;
+    height: 0.26rem;
+    font-size: 0.26rem;
+    color: #373535;
+    margin-left:2.9rem;
+    margin-top: 0.2rem;
+}
+.input{
+    width: 5.31rem;
+    height: 0.48rem;
+    /*background: #3dabf4;*/
+    margin: 5.29rem auto;
+    border-bottom: 0.02rem solid #d9ddda;
+    position: relative;
+}
+.input_left{
+    width: 0.38rem;
+    height: 0.22rem;
+    background: #ffcb2e;
+    position: absolute;
+    border-radius: 0.5rem;
+}
+.input_center{
+    width: 2.12rem;
+    height: 0.27rem;
+    font-size: 0.27rem;
+    outline: none;
+    float: left;
+    margin-left: 0.86rem;
+    display: block;
+    border: none;
+}
+.input_right{
+    width: 0.38rem;
+    height: 0.38rem;
+    font-size: 0.38rem;
+    float: right;
+}
+.password_login{
+    width: 3.51rem;
+    height: 0.7rem;
+    background: #d9ddda;
+    border-radius: 0.5rem;
+    font-size: 0.23rem;
+    color: #acafad;
+    display: block;
+    position: absolute;
+    bottom:2.32rem;
+    left:2.7rem;
+    text-align: center;
+    line-height: 0.7rem;
+}
+.error{
+    width: 3.55rem;
+    height: 0.4rem;
+    /*background: #ffcb2e;*/
+    position: absolute;
+    top:10.89rem;
+    left:2.39rem;
+}
+.error_left{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: red;
+    position: relative;
+}
+.input_n{
+    width: 0.4rem;
+    height: 0.4rem;
+    color: #ffffff;
+    position: absolute;
+    top:-1.1rem;
+    left:0.24rem;
+    font-size: 0.4rem;
+}
+.input_m{
+    width: 2.87rem;
+    height: 0.27rem;
+    font-size: 0.27rem;
+    color: red;
+    position: absolute;
+    top:-1.0rem;
+    left: 0.84rem;
+}

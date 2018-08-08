@@ -1,0 +1,53 @@
+@import url(base.css);
+.yuyin{
+    position: relative;
+}
+.shibie{
+    width: 5.31rem;
+    height: 1.47rem;
+    position: absolute;
+    top: 6.93rem;
+    left:3.5rem;
+}
+.shibie1{
+    width: 5.31rem;
+    height: 1.47rem;
+    position: absolute;
+    top:8.40rem;
+    left:3.5rem;
+}
+.please{
+    width: 4.58rem;
+    height: 0.56rem;
+    font-size: 0.56rem;
+    color: #373535;
+    position: absolute;
+    top: 9.75rem;
+    left:3.75rem;
+}
+.please1{
+    width: 6.5rem;
+    height: 0.56rem;
+    font-size: 0.56rem;
+    color: #373535;
+    position: absolute;
+    top:10.84rem;
+    left:2.8rem;
+}
+.know{
+    width: 5.6rem;
+    height: 1.3rem;
+    background: #ffbf37;
+    position: absolute;
+    border-radius: 0.7rem;
+    bottom: 0.1rem;
+    left:3.65rem;
+    background-image: -webkit-linear-gradient(left,#febc3e,#f6d57b);
+    box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem #efde79;
+}
+.know_n{
+    font-size: 0.5rem;
+    color: #f2f7f2;
+    line-height: 1.3rem;
+    text-align: center;
+}
