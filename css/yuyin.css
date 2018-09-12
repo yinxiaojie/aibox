@@ -1,6 +1,12 @@
 @import url(base.css);
 .yuyin{
+    width: 12.45rem;
+    height: 21.24rem;
     position: relative;
+}
+.yuyin>img{
+    width: 12.45rem;
+    height: 21.24rem;
 }
 .shibie{
     width: 5.31rem;
@@ -35,17 +41,15 @@
     left:2.8rem;
 }
 .know{
-    width: 5.6rem;
+    display: block;
+    width: 6.6rem;
     height: 1.3rem;
-    background: #ffbf37;
     position: absolute;
     border-radius: 0.7rem;
-    bottom: 0.1rem;
-    left:3.65rem;
+    bottom:3.4rem;
+    left:3.3rem;
     background-image: -webkit-linear-gradient(left,#febc3e,#f6d57b);
-    box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem #efde79;
-}
-.know_n{
+    box-shadow: 0.01rem 0.01rem 0.1rem 0.05rem #efde79;
     font-size: 0.5rem;
     color: #f2f7f2;
     line-height: 1.3rem;

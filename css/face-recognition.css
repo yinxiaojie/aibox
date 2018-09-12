@@ -1,25 +1,16 @@
 @import url(base.css);
-.bg{
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    /*background: #f4f4f4;*/
-}
 .click-area{
     width: 4.87rem;
     height:3.50rem;
     /*background: #ffcb2e;*/
-    top: 0.5rem;
-    margin-left:1.37rem;
-    margin-top: 3.81rem;
+    left: 0;
+    right: 0;
+    margin:3rem auto;
     position: relative;
 }
 img{
     width: 4.87rem;
     height:3.50rem;
-    text-align: center;
 }
 .symbol img {
     width: 1.04rem;
@@ -29,51 +20,43 @@ img{
     top: 0.62rem;
 }
 .confirm{
-    width: 2.67rem;
+    width: 2.5rem;
     height: 0.39rem;
-    /*background: #3de43e;*/
-    margin-top: 0.01rem;
-    margin-left:1.2rem;
-    /*position: relative;*/
-    /*overflow: hidden;*/
-}
-.confirm-n{
+    position: absolute;
+    top: 1.81rem;
+    left: 1.07rem;
     font-size: 0.15rem;
     color: #b3b6b4;
-    margin-top: -1.95rem;
 }
 .sure{
     width: 1.23rem;
     height: 0.57rem;
-    background: #3de43e;
-    position: relative;
-    margin-left: 0.8rem;
     border-radius:0.5rem;
-    background-image:-webkit-linear-gradient(top,#3de43d,#3de43d);
+    background-image:-webkit-linear-gradient(top,#3de43d,#98fa7a);
     box-shadow:0 0.02rem 0.02rem 0.02rem #3de43d;
-}
-.sure-n{
-    font-size: 0.25rem;
-    color: #fafafa;
-    line-height: 0.67rem;
-    margin-left: 0.35rem;
     position: absolute;
+    top: 2.3rem;
+    left: 0.9rem;
 }
-.cancle{
+.sure>a{
+    display: block;
+    font-size: 0.25rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.57rem;
+}
+.cancel{
     width: 1.23rem;
     height: 0.57rem;
-    background: #b1f2c8;
-    /*position: relative;*/
-    margin-top: 0.15rem;
     border-radius:0.5rem;
-    margin-left: 1.9rem;
     background-image:-webkit-linear-gradient(top,#9af1b1,#b8f2cf);
     box-shadow:0 0.02rem 0.02rem 0.02rem #b8f2cf;
-}
-.cancle-n{
     font-size: 0.25rem;
     color: #fafafa;
     line-height: 0.67rem;
     margin-left: 0.35rem;
-    /*position: absolute;*/
+    text-align: center;
+    position: absolute;
+    top: 2.3rem;
+    left: 2.4rem;
 }

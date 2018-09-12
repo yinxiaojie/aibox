@@ -1,49 +1,47 @@
 @import url(base.css);
-*{
-    margin: 0;
-    padding: 0;
-}
 .bg{
     top:0;
     bottom:0;
     left:0;
     right:0;
     position:fixed ;
-    /*background: #ffcb2e;*/
+    background: #f4f4f4;
 }
 .success{
     width: 4.87rem;
     height: 3.5rem;
     /*background: #3de43e;*/
-    margin: 3.81rem auto;
+    margin: 3.81rem auto 0;
     position: relative;
 }
 .success img{
     width: 4.87rem;
     height: 3.5rem;
+    position: relative;
 }
 .film{
     width: 1.86rem;
     height: 0.24rem;
     font-size: 0.24rem;
+    line-height: 0.24rem;
     color: #9b9e9c;
     position: absolute;
-    top: 5.46rem;
-    left:2.96rem;
+    top:1.7rem;
+    left:1.5rem;
 }
 .foot{
-    width: 3.65rem;
+    width: 3.6rem;
     height: 0.72rem;
     background: #3add52;
     border-radius: 0.5rem;
     position: absolute;
-    top:5.9rem;
-    left:1.92rem
+    top:2.2rem;
+    left:0.62rem;
 }
-.foot_word{
+.foot>a{
+    display: block;
     font-size: 0.4rem;
-    color: #fafafa;
-    position: absolute;
+    color: #fff;
     line-height: 0.72rem;
-    left:1.2rem;
+    text-align: center;
 }

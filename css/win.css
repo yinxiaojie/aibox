@@ -1,6 +1,12 @@
 @import url(base.css);
 .win{
+    width: 11.25rem;
+    height:20rem;
     position: relative;
+}
+.win>img{
+    width: 11.25rem;
+    height:19rem;
 }
 .succeed{
     width: 3.0rem;
@@ -18,6 +24,7 @@
     width: 5.27rem;
     height: 0.56rem;
     font-size: 0.56rem;
+    line-height: 0.56rem;
     color: #a5e8c3;
     position: absolute;
     top: 2.3rem;
@@ -29,7 +36,7 @@
     background: #ffda6b;
     border-radius: 0.6rem;
     position: absolute;
-    bottom:0.8rem;
+    bottom:2.3rem;
     left: 2.57rem;
     font-size: 0.56rem;
     color: #fcfdfd;
@@ -37,5 +44,25 @@
     line-height: 1.3rem;
 }
 .start_n{
+    width: 5.6rem;
+    height: 1.3rem;
+    border-radius: 0.6rem;
+    position: absolute;
+    bottom:0.5rem;
+    left: 2.57rem;
+    font-size: 0.56rem;
+    color: #fcfdfd;
+    text-align: center;
+    line-height: 1.3rem;
     background: #9ea2a3;
+}
+
+.defeat{
+    width: 11.25rem;
+    height:20rem;
+    position: relative;
+}
+.defeat>img{
+    width: 11.25rem;
+    height:19rem;
 }
