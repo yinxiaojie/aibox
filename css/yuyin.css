@@ -14,6 +14,7 @@
     position: absolute;
     top: 6.93rem;
     left:3.5rem;
+    animation:scale 2s infinite;
 }
 .shibie1{
     width: 5.31rem;
@@ -21,6 +22,18 @@
     position: absolute;
     top:8.40rem;
     left:3.5rem;
+    animation:scale 2s infinite;
+}
+@keyframes scale {
+    from{
+      transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.2,1.2);
+    }
+    to{
+        transform: scale(1.3,1.3);
+    }
 }
 .please{
     width: 4.58rem;
